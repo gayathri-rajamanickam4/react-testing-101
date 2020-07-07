@@ -1,0 +1,3 @@
+export const getTodoList = () => {
+    return fetch("https://jsonplaceholder.typicode.com/todos").then(response => response.json());
+};
